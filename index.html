@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mac Book Pro</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+   <main>
+      <section class="container">
+         <div class="row row-cols-2 mt-3">
+            <div class="col">
+               <img class="img-fluid" src="mac.png" alt="" width="" height="">
+            </div>
+            <div class="col">
+               <div class="row">
+                  <div class="col">
+                     <h1>Customize your Blue 24-inch
+                        iMac with Apple M1 chip.</h1>
+                     <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency
+                        cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB
+                        SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard
+                        US English</p>
+                  </div>
+                  <div class="row mt-3">
+                     <div class="col">
+                        <h3>Memory</h3>
+                        <button id="unified-memory-8gb" type="button" class="btn btn-outline-dark">8GB unified
+                           memory</button>
+                        <button id="unified-memory-16gb" type="button" class="btn btn-outline-dark">16GB unified
+                           memory</button>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col">
+                        <h3>Storage</h3>
+                        <button id="storage-256" type="button" class="btn btn-outline-dark">256 GB SSD
+                           storage</button>
+                        <button id="storage-512" type="button" class="btn btn-outline-dark">512 GB SSD
+                           storage</button>
+                        <button id="storage-1tb" type="button" class="btn btn-outline-dark">1 TB SSD
+                           storage</button>
+                     </div>
+                  </div>
+                  <div class="row mt-3">
+                     <div class="col">
+                        <h3>Choose your delivery option</h3>
+                        <button id="delivery-charge-free" type="button" class="btn btn-outline-dark">Friday, Aug
+                           25 FREE Prime
+                           Delivery</button>
+                        <button id="delivery-charge-cost" type="button" class="btn btn-outline-dark">Friday, Aug
+                           21
+                           Delivery charge
+                           $20</button>
+                     </div>
+                  </div>
+                  <div class="row row-cols-2 mt-3">
+                     <div class="col">
+                        <div class=" d-flex justify-content-between">
+                           <div>
+                              <h5>Best price</h5>
+                           </div>
+                           <div>
+                              <h5>$<span id="best-price"> 1299</span></h5>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class=" d-flex justify-content-between">
+                           <div>
+                              <h5>Extra Memory Cost</h5>
+                           </div>
+                           <div>
+                              <h5>$<span id="extra-memory-cost"> 0</span></h5>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class=" d-flex justify-content-between">
+                           <div>
+                              <h5>Extra Storage Cost</h5>
+                           </div>
+                           <div>
+                              <h5>$<span id="extra-storage-cost"> 0</span></h5>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class=" d-flex justify-content-between">
+                           <div>
+                              <h5>Delivery charge</h5>
+                           </div>
+                           <div>
+                              <h5>$<span id="delivery-charge"> 0</span></h5>
+                           </div>
+                        </div>
+                        <hr style="border: 1px solid #000;">
+                        <div class=" d-flex justify-content-between mt-3">
+                           <div>
+                              <h5>Total price</h5>
+                           </div>
+                           <div>
+                              <h5>$<span id="total-price"> 1299</span></h5>
+                           </div>
+                        </div>
+                        <div class="">
+                           <div>
+                              <h5>Add Pomo code</h5>
+                           </div>
+                           <div>
+                              <div class="input-group mb-3">
+                                 <input id="user-pomo-input" type="text" class="form-control">
+                                 <button class="btn btn-outline-danger" type="button" id="btn-apply">Apply</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <h3>Total: $ <span id="total">1299</span></h3>
+      </section>
+   </main>
+   <script src="app.js"></script>
+</body>
+
+</html>
